@@ -10,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans",sans-serif;
+    text-decoration: none;
 }
 body{
     width: 100%;
@@ -498,16 +499,140 @@ a.nav-topics:hover{
     color: var(--black3);  
     font-size: 30px;  
 }
-.link-sumario{
-    color: var(--black3);
-    text-decoration: none;    
-    opacity: .5;
-    transition: .5 ease;    
-}
-.link-sumario:hover{
-    opacity: 1;
-    text-decoration: wavy;
-}
+
 .sumario-item{
     font-size: 20px;
+}
+
+/* Conteúdo */
+
+.links-nav {
+    background-color: rgb(1, 97, 1);
+    padding: 10px;
+}
+
+.link-nav {
+    text-align: center;
+    font-size: .6em;
+    transition-duration: .3s;
+    color: white;
+}
+
+.link-nav:hover {
+    color: rgb(243, 243, 243);
+    font-size: .65em;
+}
+
+/* Introdução */
+
+.introducao {
+    background-image: linear-gradient(to bottom, rgb(1, 97, 1), green);
+}
+
+.conteudo-introducao {
+    margin: 0 auto;
+    background-color: white;
+    max-width: 1300px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.342);
+}
+
+.conteudo-introducao h2 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.conteudo-introducao p {
+    margin: 15px 0px;
+}
+
+.imagem-introducao {
+    width: 100%;
+    border-radius: 10px; 
+}
+
+.legenda-imagem-introducao {
+    font-size: .55em;
+    text-align: center;
+}
+
+/* Sumário */
+
+.sumario {
+    background-image: linear-gradient(to bottom, green, yellow);
+    padding-top: 15px
+}
+
+.titulo-sumario {
+    color: white;
+    padding-bottom: 15px;
+    font-size: 1.05em;
+}
+
+.link-sumario {
+    color: white;
+    font-size: .7em;
+    transition-duration: .3s;
+    padding: 5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.788);
+}
+
+.link-sumario:hover {
+    color: rgb(233, 231, 231);
+    font-size: .75em
+}
+
+/* Motivos */
+
+.motivos {
+    background-image: linear-gradient(to bottom, yellow, orange);
+    padding: 15px 0px;
+}
+
+.conteudo-motivos {
+    margin: 0 auto;
+    background-color: white;
+    max-width: 1300px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.342);
+}
+
+.titulo-motivos {
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+
+.imagem-motivos {
+    width: 100%;
+    border-radius: 10px; 
+}
+
+.conteudo-motivos p {
+    padding: 10px
+}
+
+.lista-motivos {
+    list-style-position: inside;
+}
+
+.produtor {
+    margin-top: 10px;
+    text-align: center;
+    font-size: .6em;
+}
+
+.produtor a {
+    text-decoration: none;
+    color: rgb(102, 101, 101);
+}
+
+.produtor a:hover {
+    font-size: 1.05em;
+    color: black;
 }
