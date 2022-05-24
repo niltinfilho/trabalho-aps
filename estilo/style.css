@@ -46,8 +46,9 @@ a{
     color: var(--black1);
     display: block;
     padding: 5px 10px;
-    font-size: 11px;
+    font-size: 13px;
     opacity: 1;
+    font-weight: bold;
 }
 .nav-link :hover{
     opacity: 0.7;
@@ -221,8 +222,8 @@ a{
 a.nav-topics{
     list-style: none;
     text-decoration: none;
-    color: var(--gray);
-    font-size: 10px;
+    color: black;
+    font-size: 11px;
     font-display: center;
     display: block;
     opacity: 1;
@@ -234,7 +235,7 @@ a.nav-topics:hover{
 .back{
     list-style: none;
     text-decoration: none;
-    color: var(--gray);
+    color: black;
     font-size: 11px;
     font-display: center;
     display: block;   
@@ -601,6 +602,7 @@ a.nav-topics:hover{
     text-align: justify;
     text-indent: 30px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.342);
+    margin-bottom: 15px;
 }
 
 .titulo-motivos {
@@ -630,9 +632,175 @@ a.nav-topics:hover{
 .produtor a {
     text-decoration: none;
     color: rgb(102, 101, 101);
+    transition-duration: .2s;
 }
 
 .produtor a:hover {
     font-size: 1.05em;
     color: black;
 }
+
+/* Métodos */
+
+.metodos {
+    background-image: linear-gradient(to bottom, orange, rgb(114, 149, 243));
+    padding: 15px 0px;
+}
+
+.conteudo-metodos {
+    margin: 0 auto;
+    background-color: white;
+    max-width: 1300px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.342);
+    margin-bottom: 15px;
+}
+
+.titulo-metodos {
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+    font-size: 1.5em;
+}
+
+.imagem-metodos {
+    width: 100%;
+    border-radius: 10px; 
+}
+
+.conteudo-metodos p {
+    padding: 10px
+}
+
+.legenda-imagem-metodos {
+    font-size: .55em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.titulo-conteudo-metodos {
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo-tipos-conteudo-metodos {
+    padding: 20px 20px 10px 20px;
+}
+
+/* Climas */
+
+.climas {
+    background-image: linear-gradient(to bottom, rgb(114, 149, 243), red);
+    padding: 15px 0px;
+}
+
+.conteudo-climas {
+    margin: 0 auto;
+    background-color: white;
+    max-width: 1300px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.342);
+    margin-bottom: 15px;
+}
+
+.titulo-climas {
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+    font-size: 1.5em;
+}
+
+.imagem-climas {
+    width: 100%;
+    border-radius: 10px; 
+}
+
+.conteudo-climas p {
+    padding: 10px;
+}
+
+.legenda-imagem-climas {
+    font-size: .55em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.titulo-conteudo-climas {
+    text-align: center;
+    padding: 20px;
+}
+
+.texto-climas {
+    margin-bottom: 20px;
+}
+
+.tabela-climas {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.tabela-climas th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.tabela-climas td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* Agrotóxicos */
+
+.agrotoxicos {
+    background-image: linear-gradient(to bottom, red, black);
+    padding: 15px 0px;
+}
+
+.conteudo-agrotoxicos {
+    margin: 0 auto;
+    background-color: white;
+    max-width: 1300px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.342);
+    margin-bottom: 15px;
+}
+
+.conteudo-agrotoxicos p {
+    padding: 10px;
+}
+
+.imagem-agrotoxicos {
+    width: 100%;
+    border-radius: 10px; 
+}
+
+.titulo-agrotoxicos {
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+    font-size: 1.5em;
+}
+
+.legenda-imagem-agrotoxicos {
+    font-size: .55em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.titulo-conteudo-agrotoxicos {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Suporte */
+
