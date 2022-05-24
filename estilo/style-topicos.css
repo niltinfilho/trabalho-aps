@@ -197,6 +197,107 @@ a{
         color: #888;
     }
 }
+.header-topics{    
+    border-radius: 0.5px;
+    border-color: var(--gray);
+    border-style: double;
+    backdrop-filter: blur(20px);
+    z-index: 999;
+    width: 100%;
+    height: 30px;
+    top: 35px;
+    position: fixed;    
+}
+.nav-topics-container{
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 5px 0px;
+}
+.nav-list-topics{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a.nav-topics{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-display: center;
+    display: block;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+a.nav-topics:hover{
+    opacity: 0.8;
+}
+.back{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-display: center;
+    display: block;   
+}
+.back::after{      
+    position: absolute;
+    top: 0;
+    right: -15px;
+    opacity: 1;
+    transition: 1s ease;
+}
+.back:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+}
+.nav-topics-mobile{
+    display: none;
+}
+@media (max-width: 600px){
+    .header-topics{
+        border-radius: 0px;
+        border-color: var(--gray);
+        border-style: none;
+        backdrop-filter: blur(0px);        
+    }
+    .nav-list-topics{
+        display: none;
+    }
+    .nav-topics-mobile{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-list-topics-mobile{
+        width: 98%;
+        height: 0%;
+        position: fixed;
+        top: 25%;
+        z-index: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin: -5;
+        padding: 20px 30px;
+        flex-direction: column;
+        opacity: 1;
+        transition: 1s ease;        
+    }
+    .nav-list-topics-mobile.active{
+        top: -2500%;
+        height: 100%;
+        opacity: 0.5;
+    }
+    .nav-item-topics-mobile{
+        width: 100%;
+        height: 5%;
+        margin: 6% 4%;              
+    }    
+}
+
+/*Site*/
 
 @media (max-width: 600px){
     .video-container{
@@ -798,14 +899,19 @@ a{
     padding: 15px 0px;
 }
 
-.link-rodape {
+.links-rodape {
+    padding-top: 20px;
+}
+
+.item-link-rodape {
     text-align: center;
     font-size: .6em;
     transition-duration: .3s;
     color: white;
+
 }
 
-.link-rodape:hover {
+.item-link-rodape:hover {
     color: rgb(212, 211, 211);
     font-size: .65em;
 }
