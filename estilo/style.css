@@ -507,7 +507,7 @@ a.nav-topics:hover{
 /* Conteúdo */
 
 .links-nav {
-    background-color: rgb(1, 97, 1);
+    background-color: rgb(1, 54, 1);
     padding: 10px;
 }
 
@@ -526,7 +526,7 @@ a.nav-topics:hover{
 /* Introdução */
 
 .introducao {
-    background-image: linear-gradient(to bottom, rgb(1, 97, 1), green);
+    background-image: linear-gradient(to bottom, rgb(1, 54, 1), green);
 }
 
 .conteudo-introducao {
